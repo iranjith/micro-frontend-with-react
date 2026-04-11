@@ -49,6 +49,7 @@ module.exports = {
         products: "products@http://localhost:3001/remoteEntry.js",
         cart: "cart@http://localhost:3002/remoteEntry.js",
       },
+      exposes: {},  
       shared: {
         react: {
           singleton: true,
@@ -56,6 +57,9 @@ module.exports = {
         "react-dom": {
           singleton: true,
         },
+        "react-router-dom": {
+          singleton: true,   
+        }
       },  
     },
   ),

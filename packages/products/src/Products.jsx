@@ -9,7 +9,6 @@ export default function Products() {
                 <Route index element={<ProductList />} />
                 <Route path=":id" element={<ProductDetail />} />
             </Routes>
-
         </div>
     );
     }   
